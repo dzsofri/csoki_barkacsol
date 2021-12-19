@@ -1,5 +1,7 @@
 body {
-  background-image: url("/img/hatter.jpg");
+  background-image: url("../img/hatter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
@@ -7,7 +9,7 @@ main {
   margin-left: 7%;
   margin-right: 7%;
   margin-top: 5%;
-  
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 header {
@@ -68,38 +70,29 @@ img {
 
 .container {
   position: relative;
+  
 }
 
 .nev1 {
   position: absolute;
-  top: 61%;
-  left: 17.5%;
-  
+
 }
 
 .nev2 {
   position: absolute;
-  top: 61%;
-  left: 34%;
-  
+
 }
 
 .nev3 {
   position: absolute;
-  top: 61%;
-  left: 55.5%;
-  
+
 }
 .nev4 {
   position: absolute;
-  top: 61%;
-  left: 71.5%;
-  
+
 }
 
 .nev5 {
   position: absolute;
-  top: 95%;
-  left: 17.5%;
-  
+
 }
