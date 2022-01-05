@@ -1,0 +1,106 @@
+body {
+  background-image: url("../img/hatter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 5%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+header {
+  background-color: rgb(65, 211, 84);
+  height: 70px;    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;   
+}
+   
+li {
+  float: left;
+  list-style-type: none;
+  font-size: 30px;
+}
+   
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style-type: none;
+}
+   
+li a:hover:not(.active) {
+  background-color: rgb(78, 248, 101);
+  list-style-type: none;
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+  border: 10px solid white;
+  box-shadow: 0 0 8px rgba(0,0,0,.4);
+  -moz-box-shadow: 0 0 8px rgba(0,0,0,.4);
+  -webkit-box-shadow: 0 0 8px rgba(0,0,0,.4);
+  float: left;
+  width: 300px;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+
+#cim {
+  text-align: center;
+  padding-bottom: 1%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:4vw;
+}
+
+.container {
+  position: relative;
+}
+
+.nev1 {
+  position: absolute;
+  top: 61%;
+  left: 17.5%;
+  
+}
+
+.nev2 {
+  position: absolute;
+  top: 61%;
+  left: 34%;
+  
+}
+
+.nev3 {
+  position: absolute;
+  top: 61%;
+  left: 55.5%;
+  
+}
+.nev4 {
+  position: absolute;
+  top: 61%;
+  left: 71.5%;
+  
+}
+
+.nev5 {
+  position: absolute;
+  top: 95%;
+  left: 17.5%;
+  
+}
