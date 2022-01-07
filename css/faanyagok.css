@@ -9,6 +9,7 @@ main {
   margin-right: 7%;
   margin-top: 5%;
   background-color: rgba(255, 255, 255, 0.7);
+  background-size: contain;
 }
 
 header {
@@ -73,34 +74,58 @@ img {
 
 .nev1 {
   position: absolute;
-  top: 61%;
+  top: 20%;
   left: 17.5%;
   
 }
 
 .nev2 {
   position: absolute;
-  top: 61%;
-  left: 34%;
+  top: 20%;
+  left: 35%;
   
 }
 
 .nev3 {
   position: absolute;
-  top: 61%;
-  left: 55.5%;
+  top: 20%;
+  left: 53%;
   
 }
 .nev4 {
   position: absolute;
-  top: 61%;
+  top: 20%;
   left: 71.5%;
   
 }
 
 .nev5 {
   position: absolute;
-  top: 95%;
+  top: 45%;
   left: 17.5%;
   
+} 
+
+.cim1 {
+  
 }
+
+.cim2 {
+
+}
+
+.cim3 {
+  
+}
+
+.cim4 {
+  
+}
+
+.cim5 {
+  
+}
+
+
+
+
