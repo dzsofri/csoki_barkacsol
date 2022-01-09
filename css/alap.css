@@ -1,0 +1,50 @@
+body {
+     background-image: url("../img/hatter.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+   
+   main {
+     margin-left: 7%;
+     margin-right: 7%;
+     margin-top: 5%;
+     background-color: rgba(255, 255, 255, 0.7);
+     background-size: contain;
+   }
+   
+   header {
+     background-color: rgb(65, 211, 84);
+     height: 70px;    
+   }
+   
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     list-style-type: none;
+     position: -webkit-sticky; 
+     position: sticky;
+     top: 0;   
+   }
+      
+   li {
+     float: left;
+     list-style-type: none;
+     font-size: 30px;
+   }
+      
+   li a {
+     display: block;
+     color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     list-style-type: none;
+   }
+      
+   li a:hover:not(.active) {
+     background-color: rgb(78, 248, 101);
+     list-style-type: none;
+     color: white;
+   }
