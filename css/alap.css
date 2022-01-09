@@ -1,7 +1,8 @@
 body {
      background-image: url("../img/hatter.jpg");
-     background-repeat: no-repeat;
+     background-repeat: repeat;
      background-size: cover;
+     
    }
    
    main {
