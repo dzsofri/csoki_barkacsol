@@ -1,5 +1,5 @@
 
-.vastag {
+.vastag, h3 {
      font-weight: bold;
 }
 
@@ -10,10 +10,10 @@ h1 {
 }
 
 table {
-     border: 1px solid black;
      border-collapse: collapse;
      width: 95%;
-     margin-left: 2%;
+     margin-left: 5%;
+     margin-bottom: 10%;
    }
 
 .row {
@@ -24,5 +24,17 @@ table {
    
 .festekek {
      flex: 25%;
-     padding: 5px;
+     padding: 20px;
+     
    }
+td {
+     font-size: 20px;
+}
+
+h3 {
+     margin-left:  5%;
+     margin-top: 5%;
+}
+h1{
+     font-size: 300%;
+}
