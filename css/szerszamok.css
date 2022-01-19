@@ -65,3 +65,20 @@ h1{
     margin-right: auto;
     margin-top: 40px;
 }
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover img{
+    height: 230px;
+    border: rgb(161, 161, 161) solid 10px;
+    border-radius: 50px;
+}
