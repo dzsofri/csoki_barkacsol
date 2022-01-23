@@ -38,3 +38,32 @@ h3 {
 h1{
      font-size: 300%;
 }
+
+footer {
+    
+     background-color:#ffffff;
+     color:#4b4c4d;
+     text-align:center;
+     font-size:16px;
+     text-decoration:none;
+     position: sticky;
+     display:inline-block;
+     width: 100%;
+
+}
+
+footer a {
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+}
+
+footer a:hover {
+     text-decoration: none;
+     color: black;
+}
+
+footer h5 {
+     font-weight: bold;
+     text-align: center;
+}
