@@ -71,15 +71,13 @@ footer {
 
 footer {
     
-     background-color:#ffffff;
-     color:#4b4c4d;
-     text-align:center;
-     font-size:16px;
-     text-decoration:none;
-     position: sticky;
-     display:inline-block;
+     height: 115px;
+     left: 0;
+     bottom: 0;
      width: 100%;
-
+     background-color: rgba(255, 255, 255, 0.65);
+     color: black;
+     text-align: center;
 }
 
 footer a {
