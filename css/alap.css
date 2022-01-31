@@ -49,3 +49,20 @@ body {
      list-style-type: none;
      color: white;
    }
+
+  .maingomb {
+    overflow: hidden;
+    float: right;
+   }
+
+   .maingomb img{
+    resize: both;
+    height: 45px;
+    width: 45px;
+   }
+
+   .maingomb img:hover{
+    resize: both;
+    height: 45px;
+    width: 45px;
+   }
