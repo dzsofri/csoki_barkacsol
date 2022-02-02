@@ -1,4 +1,4 @@
-img{
+main img{
     height: 200px;
     border: rgb(218, 218, 218) solid 10px;
     border-radius: 50px;
@@ -40,6 +40,7 @@ h1{
     width: 25%;
     padding: 5px;
     margin-bottom: 5%;
+    margin-right: 2%;
 }
   
 .row::after {
@@ -61,8 +62,7 @@ h1{
 }
 
 .row{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5%;
     margin-top: 40px;
 }
 
@@ -77,8 +77,8 @@ a:hover{
     
 }
 
-a:hover img{
-    height: 230px;
+main a:hover img{
+    height: 180px;
     border: rgb(161, 161, 161) solid 10px;
     border-radius: 50px;
 }

@@ -1,12 +1,11 @@
 
-img {
+main img {
   border-radius: 50%;
-  border: 10px solid white;
-  box-shadow: 0 0 8px rgba(91, 219, 17, 0.4);
-  -moz-box-shadow: 0 0 8px rgba(0,0,0,.4);
-  -webkit-box-shadow: 0 0 8px rgba(0,0,0,.4);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.589);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.726);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.733);
   width: 70%;
-  margin-left: 10%;
+  margin-left: 15%;
   margin-bottom: 5%;
   
 }
@@ -34,11 +33,6 @@ img {
     font-size: 80px;
   }
 }
-
-
-
-
-
 
 * {
   box-sizing: border-box;
@@ -93,4 +87,8 @@ img {
  h1:hower{
   text-decoration: none;
   color: black;
+ }
+
+ a {
+   text-decoration: none;
  }

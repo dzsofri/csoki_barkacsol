@@ -18,14 +18,12 @@ table {
 
 .row {
      display: flex;
-     margin-left:-5px;
-     margin-right:-5px;
+     margin: auto;
    }
    
 .festekek {
      flex: 25%;
      padding: 20px;
-     
    }
 td {
      font-size: 20px;
@@ -49,53 +47,44 @@ footer {
      bottom:0;
      width:100%;
      height:70px;   /* Height of the footer */
-     background:rgba(251, 251, 251, 0.65);
+     background:rgba(0, 0, 0, 0.486);
      min-height:100%;
      position:relative;
      text-align: center;
      font-size: 20px;
+     color:rgba(255, 255, 255, 0.726);
   }
 
   footer a{
-     color: black;
+     color: rgba(255, 255, 255, 0.726);;
      text-decoration: none;
      font-weight: bold;
  }
  
  footer a:hover{
      text-decoration: none;
-     color: black;
+     color: rgba(255, 255, 255, 0.726);;
      font-weight: bolder;
  }
 
-=======
-
-footer {
-    
-     background-color:#ffffff;
-     color:#4b4c4d;
-     text-align:center;
-     font-size:16px;
-     text-decoration:none;
-     position: sticky;
-     display:inline-block;
-     width: 100%;
-
-}
-
-footer a {
+a{
+     color: black;
+     text-decoration: none;
+ }
+ 
+ a:hover{
      text-decoration: none;
      color: black;
-     font-weight: bold;
-}
+     
+ }
+ 
+ main a:hover img{
+     height: 230px;
+     border: rgb(161, 161, 161) solid 10px;
+     border-radius: 50px;
+ }
 
-footer a:hover {
-     text-decoration: none;
-     color: black;
-}
-
-footer h5 {
-     font-weight: bold;
-     text-align: center;
-}
-
+main img{
+     border:  rgb(218, 218, 218) solid 10px;
+     border-radius: 50px;
+ }
