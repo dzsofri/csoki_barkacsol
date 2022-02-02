@@ -1,0 +1,30 @@
+img {
+     border-radius: 5%;
+     border: 10px solid white;
+     box-shadow: 0 0 8px rgba(91, 219, 17, 0.4);
+     -moz-box-shadow: 0 0 8px rgba(0,0,0,.4);
+     -webkit-box-shadow: 0 0 8px rgba(0,0,0,.4);
+     width: 50%;
+     margin-bottom: 10%;
+   }
+
+   .column {
+     width: 50%;
+   }
+   
+   .row::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+
+ a:hover img{
+     width: 45%;
+     border: rgb(161, 161, 161) solid 10px;
+     border-radius: 5%;
+     
+ }
+
+ .row {
+      padding-left: 20%;
+ }
