@@ -2,6 +2,7 @@
 main img {
   border-radius: 50%;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.589);
+  border:  rgb(218, 218, 218) solid 9px;
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.726);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.733);
   width: 70%;
@@ -92,3 +93,9 @@ main img {
  a {
    text-decoration: none;
  }
+
+ a:hover img{
+  width: 65%;
+  border-radius: 50%;
+  border:  rgb(161, 161, 161) solid 8px;
+}
