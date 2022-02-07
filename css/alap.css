@@ -1,7 +1,7 @@
 body {
-     background-image: url("../img/hatter.jpg");
      background-repeat: repeat;
      background-size: cover;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.383)), url("../img/hatter.jpg");
      
    }
    
@@ -14,8 +14,9 @@ body {
    }
    
    header {
-     background-color: rgb(65, 211, 84);
-     height: 70px;    
+     background-color: rgb(255, 255, 255);
+     height: 70px;
+     box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);  
    }
    
    ul {
@@ -37,7 +38,7 @@ body {
       
    li a {
      display: block;
-     color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
      text-align: center;
      padding: 14px 16px;
      text-decoration: none;
@@ -45,7 +46,24 @@ body {
    }
       
    li a:hover:not(.active) {
-     background-color: rgb(78, 248, 101);
+     background-color: rgb(50,205,50);
      list-style-type: none;
      color: white;
+   }
+
+  .maingomb {
+    overflow: hidden;
+    float: right;
+   }
+
+   .maingomb img{
+    resize: both;
+    height: 45px;
+    width: 45px;
+   }
+
+   .maingomb img:hover{
+    resize: both;
+    height: 45px;
+    width: 45px;
    }
