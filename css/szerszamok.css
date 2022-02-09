@@ -2,6 +2,7 @@ main img{
     height: 200px;
     border: rgb(218, 218, 218) solid 10px;
     border-radius: 50px;
+    background-color: white;
 }
 
 h1{
@@ -67,13 +68,13 @@ h1{
 }
 
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:hover{
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 

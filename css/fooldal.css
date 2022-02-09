@@ -1,6 +1,7 @@
-img {
+
+main img {
      border-radius: 5%;
-     border: 10px solid white;
+     border: rgb(218, 218, 218) solid 10px;
      box-shadow: 0 0 8px rgba(91, 219, 17, 0.4);
      -moz-box-shadow: 0 0 8px rgba(0,0,0,.4);
      -webkit-box-shadow: 0 0 8px rgba(0,0,0,.4);
@@ -33,3 +34,9 @@ img {
    padding-top: 1%;
    padding-left: 1%;
  }
+
+ header h2 {
+   text-align: center;
+   color: white;
+ }
+
