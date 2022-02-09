@@ -2,12 +2,14 @@
     object-fit: cover;
     width:400px;
     height:400px;
+    margin-left: 5%;
 }
 
 .ocsikesz img {
     object-fit: cover;
     width: 400px;
     height: 400px;
+    margin-left: 5%;
 }
 
 .container {
@@ -19,23 +21,25 @@
 .overlay {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 1%;
   right: 0;
   background-color: #836747;
   overflow: hidden;
   width: 0;
   height: 100%;
   transition: .5s ease;
+  margin-left: 5%;
 }
 
 .container:hover .overlay {
   width: 55%;
+  margin-left: 5%;
 }
 
 .text {
   white-space: nowrap; 
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -44,3 +48,4 @@
   -ms-transform: translate(-50%, -50%);
   text-shadow: 2px 2px #000000;;
 }
+

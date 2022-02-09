@@ -1,5 +1,5 @@
 
-img {
+main img {
      border-radius: 5%;
      border: rgb(218, 218, 218) solid 10px;
      box-shadow: 0 0 8px rgba(91, 219, 17, 0.4);
@@ -39,3 +39,4 @@ img {
    text-align: center;
    color: white;
  }
+
