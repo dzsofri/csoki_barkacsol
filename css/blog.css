@@ -1,12 +1,45 @@
 .text {
-    white-space: nowrap; 
     color: white;
     font-size: 15px;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-shadow: 2px 2px #000000;;
   }
+  
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+main img{
+    border:  rgb(218, 218, 218) solid 10px;
+    border-radius: 50px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  tr:nth-child(even) {background-color:  #836747;}
+
+#komm{
+    margin-left: 30%; 
+    margin-right: 30%;
+}
+
+h3, h5{
+    margin-left: 3%;
+    font-weight: bolder;
+}
+
+main a{
+    color: white;
+}
+
